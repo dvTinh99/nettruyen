@@ -1,0 +1,21 @@
+[
+  "HOT",
+  "THEO DOI",
+  "LICH SU",
+  {
+    "name": "THE LOAI",
+    "children": [
+      {
+        "name": "TAT CA",
+        "children": ["ACTION", "CHUYEN SINH", "COMEDY"]
+      },
+      {
+        "name": "CO DAI",
+        "children": ["DRAME"]
+      },
+      {
+        "name": "NAM MY"
+      }
+    ]
+  }
+]
