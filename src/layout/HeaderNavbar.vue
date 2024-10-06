@@ -6,7 +6,7 @@
           <div class="ModuleContent">
             <ul class="nav navbar-nav main-menu">
               <li class="active">
-                <a target="_self" href=".">
+                <a target="_self" href="/">
                   <i class="fa fa-home hidden-xs"> </i> <span class="visible-xs">Trang chủ</span>
                 </a>
               </li>
@@ -93,7 +93,7 @@
                 </div>
               </li>
               <li class="">
-                <a target="_self" href="./truyen-tranh-hot">TIM TRUYEN</a>
+                <a target="_self" href="/tim-truyen">TIM TRUYEN</a>
               </li>
               <li class="">
                 <a target="_self" href="./truyen-tranh-hot">CON GAI</a>

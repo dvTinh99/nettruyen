@@ -33,4 +33,8 @@ const getMangaBySlug = async (slug: string) => {
   return await http.get<APIResponse<TManga>>(`/truyen-tranh/${slug}`)
 }
 
-export { getMangaHome, getMangaBySlug }
+const getMangaContent = async (url: string) => {
+  return await http.get<APIResponse<any>>(url)
+}
+
+export { getMangaHome, getMangaBySlug, getMangaContent }

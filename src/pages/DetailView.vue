@@ -57,7 +57,7 @@
                   </ul>
                   <div class="mrt5 mrb10" itemtype="http://schema.org/Book">
                     <a href="./truyen-tranh/ta-hoc-tram-than-trong-benh-vien-tam-than">
-                      <span itemprop="name">Ta Học Trảm Thần Trong Bệnh Viện Tâm Thần</span>
+                      <span itemprop="name">{{ manga.name }}</span>
                     </a>
                     <span itemprop="aggregateRating" itemtype="https://schema.org/AggregateRating">
                       Xếp hạng: <span itemprop="ratingValue">4.5</span>/<span itemprop="bestRating"
@@ -125,8 +125,7 @@
             <div class="my-banner md"></div>
             <div class="detail-content">
               <h2 class="list-title">
-                <i class="fa fa-file-text-o"> </i> Nội dung truyện Ta Học Trảm Thần Trong Bệnh Viện
-                Tâm Thần trên NetTruyen
+                <i class="fa fa-file-text-o"> </i> Nội dung truyện {{ manga.name }} NetTruyen
               </h2>
               <div class="shortened">
                 <p v-html="manga.content"></p>
@@ -176,9 +175,7 @@
                     :key="index"
                   >
                     <div class="col-xs-5 chapter">
-                      <a
-                        href="./truyen-tranh/ta-hoc-tram-than-trong-benh-vien-tam-than/chuong-153"
-                        data-id="153"
+                      <a :href="`/truyen-tranh/${manga.slug}/chuong-${chapter.chapter_name}`"
                         >Chapter {{ chapter.chapter_name }}</a
                       >
                     </div>

@@ -39,18 +39,14 @@
                     <a
                       class="jtip"
                       data-jtip="#truyen-tranh-9579"
-                      href="./truyen-tranh/toan-cau-cao-vo"
+                      :href="`/truyen-tranh/${item.slug}`"
                     >
                       {{ item.name }}
                     </a>
                   </h3>
                   <ul class="comic-item" data-id="9579">
                     <li class="chapter clearfix">
-                      <a
-                        data-id="279"
-                        href="./truyen-tranh/toan-cau-cao-vo/chuong-279"
-                        title="Chapter 279"
-                      >
+                      <a data-id="279" :href="`/truyen-tranh/${item.slug}`" title="Chapter 279">
                         Chapter {{ item.chaptersLatest[0].chapter_name }}
                       </a>
                       <i class="time">{{ formatDistance(new Date(item.updatedAt), new Date()) }}</i>
