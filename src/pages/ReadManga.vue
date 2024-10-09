@@ -383,7 +383,7 @@ const manga = ref<TManga>({})
 const breadcrumb = ref()
 const fetchMangaBySlug = async () => {
   const data = await getMangaBySlug(route.params.slug as string)
-  const urlChapter = data.data.data.item.chapters[0].server_data[chapter].chapter_api_data
+  const urlChapter = data.data.data.item.chapters[0].server_data?.[chapter].chapter_api_data
 
   manga.value = data.data.data.item
   const dataChapter = await getMangaContent(urlChapter)
