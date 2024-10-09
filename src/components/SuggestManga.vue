@@ -20,11 +20,11 @@
                 <div class="slide-caption">
                   <h3>
                     <a :href="`/truyen-tranh/${item.slug}`" title="Vô Địch Đốn Ngộ">
-                      {{ item.name }}
+                      {{ item }}
                     </a>
                   </h3>
                   <a :href="`/truyen-tranh/${item.slug}`" title="Chapter 316">
-                    Chapter {{ item.chaptersLatest[0].chapter_name }}
+                    Chapter {{ item?.chaptersLatest && item?.chaptersLatest[0]?.chapter_name }}
                   </a>
                   <span class="time"
                     ><i class="fa fa-clock-o"></i>

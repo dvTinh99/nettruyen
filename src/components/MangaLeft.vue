@@ -47,7 +47,7 @@
                   <ul class="comic-item" data-id="9579">
                     <li class="chapter clearfix">
                       <a data-id="279" :href="`/truyen-tranh/${item.slug}`" title="Chapter 279">
-                        Chapter {{ item.chaptersLatest[0].chapter_name }}
+                        Chapter {{ item?.chaptersLatest && item?.chaptersLatest[0]?.chapter_name }}
                       </a>
                       <i class="time">{{ formatDistance(new Date(item.updatedAt), new Date()) }}</i>
                     </li>
