@@ -271,13 +271,13 @@
                 <div class="comment-list comment-default">
                   <div class="item clearfix" id="comment_3259">
                     <figure class="avatar avatar-wrap">
-                      <img
+                      <!-- <img
                         onerror="this.onerror=null; this.src='/assets/images/anonymous.png';"
                         src="./assets/images/avatar-comment-default.jpg"
                         alt="Culi Nettruyen"
                         class="lazy"
                         data-original="./assets/images/avatar-comment-default.jpg"
-                      />
+                      /> -->
                     </figure>
                     <div class="summary">
                       <i class="fa fa-angle-left fa-arrow"></i>

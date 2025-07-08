@@ -795,7 +795,6 @@
                 <img
                   class="thumb avatar lazy"
                   src="https://data.dtcdnyacd.com/avatar/34942_1722514558.jpg"
-                  onerror="this.onerror=null; this.src='/assets/images/anonymous.png';"
                   alt=""
                 />
               </a>
@@ -813,8 +812,8 @@
               <a rel="nofollow" href="#" title="">
                 <img
                   class="thumb avatar lazy"
-                  src="./assets/images/anonymous.png"
-                  onerror="this.onerror=null; this.src='/assets/images/anonymous.png';"
+                  
+                  
                   alt=""
                 />
               </a>
@@ -832,8 +831,8 @@
               <a rel="nofollow" href="#" title="">
                 <img
                   class="thumb avatar lazy"
-                  src="./assets/images/anonymous.png"
-                  onerror="this.onerror=null; this.src='/assets/images/anonymous.png';"
+                  
+                  
                   alt=""
                 />
               </a>
@@ -852,7 +851,7 @@
                 <img
                   class="thumb avatar lazy"
                   src="https://data.dtcdnyacd.com/avatar/116156_1722687218.jpg"
-                  onerror="this.onerror=null; this.src='/assets/images/anonymous.png';"
+                  
                   alt=""
                 />
               </a>
@@ -870,8 +869,8 @@
               <a rel="nofollow" href="#" title="">
                 <img
                   class="thumb avatar lazy"
-                  src="./assets/images/anonymous.png"
-                  onerror="this.onerror=null; this.src='/assets/images/anonymous.png';"
+                  
+                  
                   alt=""
                 />
               </a>
@@ -894,8 +893,8 @@
               <a rel="nofollow" href="#" title="">
                 <img
                   class="thumb avatar lazy"
-                  src="./assets/images/anonymous.png"
-                  onerror="this.onerror=null; this.src='/assets/images/anonymous.png';"
+                  
+                  
                   alt=""
                 />
               </a>
@@ -913,8 +912,8 @@
               <a rel="nofollow" href="#" title="">
                 <img
                   class="thumb avatar lazy"
-                  src="./assets/images/anonymous.png"
-                  onerror="this.onerror=null; this.src='/assets/images/anonymous.png';"
+                  
+                  
                   alt=""
                 />
               </a>
@@ -932,8 +931,8 @@
               <a rel="nofollow" href="#" title="">
                 <img
                   class="thumb avatar lazy"
-                  src="./assets/images/anonymous.png"
-                  onerror="this.onerror=null; this.src='/assets/images/anonymous.png';"
+                  
+                  
                   alt=""
                 />
               </a>
@@ -951,8 +950,8 @@
               <a rel="nofollow" href="#" title="">
                 <img
                   class="thumb avatar lazy"
-                  src="./assets/images/anonymous.png"
-                  onerror="this.onerror=null; this.src='/assets/images/anonymous.png';"
+                  
+                  
                   alt=""
                 />
               </a>
@@ -970,8 +969,8 @@
               <a rel="nofollow" href="#" title="">
                 <img
                   class="thumb avatar lazy"
-                  src="./assets/images/anonymous.png"
-                  onerror="this.onerror=null; this.src='/assets/images/anonymous.png';"
+                  
+                  
                   alt=""
                 />
               </a>

@@ -6,7 +6,7 @@
           <a itemprop="url" href=".">
             <img
               itemprop="logo"
-              src="./assets/images/logo-nettruyen.png"
+              :src="`${API_URL}/images/logo-nettruyen.png`"
               alt="NetTruyen - Truyện tranh Online"
             />
             <br />
@@ -416,3 +416,6 @@
     </div>
   </footer>
 </template>
+<script setup lang="ts">
+const API_URL = import.meta.env.VITE_API_URL
+</script>
