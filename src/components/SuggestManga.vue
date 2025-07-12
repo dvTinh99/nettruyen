@@ -5,7 +5,7 @@
         <h2 class="page-title">NetTruyen đề cử <i class="fa fa-angle-right"></i></h2>
         <div class="items-slide">
           <carousel :items-to-show="5">
-            <slide v-for="item in images" :key="item">
+            <slide v-for="(item, index) in images" :key="index">
               <div class="item">
                 <a :href="`/truyen-tranh/${item.slug}`">
                   <img
@@ -46,14 +46,11 @@
 <script setup lang="ts">
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
-import { getMangaHome } from '@/services/manga/manga'
+import { getMangaHome, type TManga } from '@/services/manga/manga'
 import { onMounted, ref } from 'vue'
 import { formatDistance } from 'date-fns'
 
-const images = ref([])
-const fetchMangeHOme = async () => {
-  const data = await getMangaHome()
-  images.value = data.data.data.items
-}
-onMounted(fetchMangeHOme)
+defineProps<{
+  images: TManga[]
+}>()
 </script>

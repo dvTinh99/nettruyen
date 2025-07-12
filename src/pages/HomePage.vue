@@ -4,5 +4,5 @@
   </body>
 </template>
 <script lang="ts" setup>
-import Content from '@/layout/Content.vue';
+import Content from '@/layout/Content.vue'
 </script>

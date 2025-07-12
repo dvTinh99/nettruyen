@@ -29,6 +29,10 @@ const getMangaHome = async () => {
   return await http.get<APIResponse<TCategory[]>>('/home')
 }
 
+const getMangas = async (type: string) => {
+  return await http.get<APIResponse<TCategory[]>>(`/danh-sach/${type}`)
+}
+
 const getMangaBySlug = async (slug: string) => {
   return await http.get<APIResponse<TManga>>(`/truyen-tranh/${slug}`)
 }
@@ -37,4 +41,4 @@ const getMangaContent = async (url: string) => {
   return await http.get<APIResponse<any>>(url)
 }
 
-export { getMangaHome, getMangaBySlug, getMangaContent }
+export { getMangaHome, getMangaBySlug, getMangaContent, getMangas }

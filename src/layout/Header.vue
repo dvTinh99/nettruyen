@@ -5,7 +5,7 @@
         <div class="navbar-header">
           <div class="navbar-brand">
             <a class="logo" title="Truyện tranh online" :href="API_URL">
-              <img alt="Logo NetTruyen" :src="`${API_URL}/images/logo-nettruyen.png`" />
+              <!-- <img alt="Logo NetTruyen" :src="`${API_URL}/images/logo-nettruyen.png`" /> -->
             </a>
           </div>
           <div class="navbar-form navbar-left hidden-xs search-box comicsearchbox">
