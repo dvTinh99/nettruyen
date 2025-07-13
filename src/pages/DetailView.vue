@@ -45,7 +45,7 @@
                         <a
                           v-for="(item, index) of manga.category"
                           :key="index"
-                          href="./tim-truyen/drama-103"
+                          href="/tim-truyen/drama-103"
                           >{{ item.name }} -
                         </a>
                       </p>
@@ -56,7 +56,7 @@
                     </li>
                   </ul>
                   <div class="mrt5 mrb10" itemtype="http://schema.org/Book">
-                    <a href="./truyen-tranh/ta-hoc-tram-than-trong-benh-vien-tam-than">
+                    <a href="/truyen-tranh/ta-hoc-tram-than-trong-benh-vien-tam-than">
                       <span itemprop="name">{{ manga.name }}</span>
                     </a>
                     <span itemprop="aggregateRating" itemtype="https://schema.org/AggregateRating">
@@ -102,13 +102,13 @@
                   <div class="read-action mrt10">
                     <a
                       class="btn btn-warning mrb5"
-                      href="./truyen-tranh/ta-hoc-tram-than-trong-benh-vien-tam-than/chuong-0"
+                      href="/truyen-tranh/ta-hoc-tram-than-trong-benh-vien-tam-than/chuong-0"
                     >
                       Đọc từ đầu</a
                     >
                     <a
                       class="btn btn-warning mrb5"
-                      href="./truyen-tranh/ta-hoc-tram-than-trong-benh-vien-tam-than/chuong-153"
+                      href="/truyen-tranh/ta-hoc-tram-than-trong-benh-vien-tam-than/chuong-153"
                     >
                       Đọc mới nhất</a
                     >
@@ -185,162 +185,8 @@
               </nav>
             </div>
           </article>
-          <ul class="nav nav-tabs main-tab lazy-module" data-type="facebook">
-            <li class="active">
-              <a data-toggle="tab" href="#nt_comments">
-                <i class="fa fa-comments"></i> NetTruyen (<span class="comment-count"></span>)
-              </a>
-            </li>
-            <li>
-              <a data-toggle="tab" href="#fb_comments">
-                <i class="fa fa-facebook-official"></i> Facebook (<span
-                  class="fb-comments-count fb_comments_count_zero fb_iframe_widget fb_iframe_widget_fluid_desktop"
-                  data-href="https://nettruyenx.com/ta-hoc-tram-than-trong-benh-vien-tam-than"
-                  fb-xfbml-state="rendered"
-                  fb-iframe-plugin-query="app_id=614071474159716&amp;container_width=0&amp;count=true&amp;height=100&amp;href=https%3A%2F%2Fnettruyenx.com%2Fta-hoc-tram-than-trong-benh-vien-tam-than&amp;locale=en_US&amp;sdk=joey&amp;version=v16.0&amp;width=550"
-                  ><span style="vertical-align: top; width: 0px; height: 0px; overflow: hidden"
-                    ><iframe
-                      name="fb18a6f9c01599134"
-                      width="550px"
-                      height="100px"
-                      data-testid="fb:comments Facebook Social Plugin"
-                      title="fb:comments Facebook Social Plugin"
-                      frameborder="0"
-                      allowtransparency="true"
-                      allowfullscreen="true"
-                      scrolling="no"
-                      allow="encrypted-media"
-                      src="https://www.facebook.com/v16.0/plugins/comments.php?app_id=614071474159716&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfd72ac72447154ca8%26domain%3Dnettruyenviet.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fnettruyenviet.com%252Ff26507235520113b1%26relation%3Dparent.parent&amp;container_width=0&amp;count=true&amp;height=100&amp;href=https%3A%2F%2Fnettruyenx.com%2Fta-hoc-tram-than-trong-benh-vien-tam-than&amp;locale=en_US&amp;sdk=joey&amp;version=v16.0&amp;width=550"
-                      style="border: none; visibility: visible; width: 0px; height: 0px"
-                    ></iframe></span></span
-                >)
-              </a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div id="fb_comments" class="tab-pane fade">
-              <div class="comment">
-                <div
-                  class="fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop"
-                  data-width="100%"
-                  data-numposts="5"
-                  data-colorscheme="light"
-                  data-href="https://nettruyenco.vn/ta-hoc-tram-than-trong-benh-vien-tam-than"
-                  fb-xfbml-state="rendered"
-                  fb-iframe-plugin-query="app_id=614071474159716&amp;color_scheme=light&amp;container_width=0&amp;height=100&amp;href=https%3A%2F%2Fnettruyenco.vn%2Fta-hoc-tram-than-trong-benh-vien-tam-than&amp;locale=en_US&amp;numposts=5&amp;sdk=joey&amp;version=v16.0&amp;width="
-                  style="width: 100%"
-                >
-                  <span style="vertical-align: bottom; width: 100%; height: 0px"
-                    ><iframe
-                      name="f8f86ccdc5c864363"
-                      width="1000px"
-                      height="100px"
-                      data-testid="fb:comments Facebook Social Plugin"
-                      title="fb:comments Facebook Social Plugin"
-                      frameborder="0"
-                      allowtransparency="true"
-                      allowfullscreen="true"
-                      scrolling="no"
-                      allow="encrypted-media"
-                      src="https://www.facebook.com/v16.0/plugins/comments.php?app_id=614071474159716&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df875bc129a64c6dc9%26domain%3Dnettruyenviet.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fnettruyenviet.com%252Ff26507235520113b1%26relation%3Dparent.parent&amp;color_scheme=light&amp;container_width=0&amp;height=100&amp;href=https%3A%2F%2Fnettruyenco.vn%2Fta-hoc-tram-than-trong-benh-vien-tam-than&amp;locale=en_US&amp;numposts=5&amp;sdk=joey&amp;version=v16.0&amp;width="
-                      class=""
-                      style="border: none; visibility: visible; width: 100%; height: 0px"
-                    ></iframe
-                  ></span>
-                </div>
-              </div>
-            </div>
-            <div id="nt_comments" class="tab-pane fade in active">
-              <div class="mrt5" style="color: red; font-size: 12px; font-style: italic">
-                Bình luận không được tính để tăng cấp độ. Tài khoản không bình luận được là do:
-                avatar nhạy cảm, spam link hoặc chưa đủ cấp độ.
-              </div>
-              <div class="comment-wrapper">
-                <div
-                  class="placeholder"
-                  onclick="if (!window.__cfRLUnblockHandlers) return false; openComment(this)"
-                >
-                  Mời bạn thảo luận, vui lòng không spam, share link kiếm tiền, thiếu lành mạnh,...
-                  để tránh bị khóa tài khoản
-                </div>
-                <div id="comment_form"></div>
-                <div class="mrt10 mrb5">
-                  <span class="sort-comments comment-action"> <i class="icons"></i>Mới nhất </span>
-                </div>
-                <div class="comment-list hidden"></div>
-                <div class="comment-list comment-default">
-                  <div class="item clearfix" id="comment_3259">
-                    <figure class="avatar avatar-wrap">
-                      <!-- <img
-                        onerror="this.onerror=null; this.src='/assets/images/anonymous.png';"
-                        src="./assets/images/avatar-comment-default.jpg"
-                        alt="Culi Nettruyen"
-                        class="lazy"
-                        data-original="./assets/images/avatar-comment-default.jpg"
-                      /> -->
-                    </figure>
-                    <div class="summary">
-                      <i class="fa fa-angle-left fa-arrow"></i>
-                      <div class="info">
-                        <div class="comment-header">
-                          <span class="authorname name-1">CuLi Nettruyen</span>
-                          <span class="member level-2">
-                            <span data-level="2">Cấp 2</span>
-                            <span class="progress-bar" style="width: 0%"></span>
-                          </span>
-                          <span class="cmchapter"></span>
-                        </div>
-                        <div class="comment-content">
-                          <img
-                            src="https://4.bp.blogspot.com/_1Jw2fzSntT0/TdAAqRNO3PI/AAAAAAAABqY/zpZuo37H7LM/s128/7.gif"
-                            alt="emo"
-                          />
-                          Bình luận ở bên dưới, click vào Xem thêm bình luận để xem!
-                        </div>
-                      </div>
-                      <ul class="comment-footer">
-                        <li>
-                          <span> <i class="fa fa-comment"> </i> Trả lời</span>
-                        </li>
-                        <li>
-                          <span class="vote-up">
-                            <i class="fa fa-thumbs-up"> </i>
-                            <span class="vote-up-count">0</span>
-                          </span>
-                        </li>
-                        <li class="comment-more-wrap">
-                          <span class="more-action">
-                            <i class="fa fa-ellipsis-h"> </i>
-                          </span>
-                          <ul class="comment-more hidden">
-                            <li><span>Xóa</span></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <abbr title="2024-07-16 11:08:18">
-                            <i class="fa fa-clock-o"> </i> 0 phút trước</abbr
-                          >
-                        </li>
-                      </ul>
-                      <div id="comment_form_3259"></div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  id="ctl00_mainContent_divPager"
-                  class="pagination-outter commentpager hidden"
-                ></div>
-              </div>
-            </div>
-          </div>
-          <a
-            class="view-more join-comment"
-            onclick="if (!window.__cfRLUnblockHandlers) return false; joinComment()"
-          >
-            <i class="fa fa-comments"> </i> Xem thêm bình luận</a
-          >
         </div>
-        <RightSideBar />
+        <RightSideBar :images="images" />
       </div>
     </div>
   </div>
@@ -349,15 +195,21 @@
 import { useRoute } from 'vue-router'
 import RightSideBar from '@/components/RightSideBar.vue'
 
-import { getMangaBySlug, type TManga } from '@/services/manga/manga'
+import { getMangaBySlug, getMangaHome, type TManga } from '@/services/manga/manga'
 import { onMounted, ref } from 'vue'
 const route = useRoute()
 const manga = ref<TManga>({})
 const breadcrumb = ref()
+
+const images = ref([])
+
 const fetchMangaBySlug = async () => {
   const data = await getMangaBySlug(route.params.slug as string)
   manga.value = data.data.data.item as any
   breadcrumb.value = data.data.data.breadCrumb
+
+  const homeResponse = await getMangaHome()
+  images.value = homeResponse.data.data.items
 }
 
 onMounted(fetchMangaBySlug)

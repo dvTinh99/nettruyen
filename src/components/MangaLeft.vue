@@ -8,7 +8,7 @@
               NetTruyen - Truyện tranh online <i class="fa fa-angle-right"></i>
             </h1>
             <div style="margin-bottom: 5px" class="text_link_iwin_club"></div>
-            <a class="filter-icon" href="./tim-truyen">
+            <a class="filter-icon" href="/tim-truyen">
               <i class="fa fa-filter"></i>
             </a>
           </div>

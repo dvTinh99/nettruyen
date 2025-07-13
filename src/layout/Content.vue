@@ -1,10 +1,10 @@
 <template>
   <main class="main">
     <div class="container">
-      <SuggestManga />
+      <SuggestManga :images="images" />
       <div class="row">
-        <MangaLeft />
-        <RightSideBar />
+        <MangaLeft :images="images" />
+        <RightSideBar :images="images" />
       </div>
     </div>
   </main>
@@ -19,6 +19,8 @@ import { getMangaHome } from '@/services/manga/manga'
 const images = ref([])
 const fetchMangeHOme = async () => {
   const data = await getMangaHome()
+  console.log('gethomene', data)
+
   images.value = data.data.data.items
 }
 onMounted(fetchMangeHOme)

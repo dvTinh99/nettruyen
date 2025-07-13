@@ -11,13 +11,13 @@
                 </a>
               </li>
               <li class="">
-                <a target="_self" href="./truyen-tranh-hot">Hot</a>
+                <a target="_self" href="/truyen-tranh-hot">Hot</a>
               </li>
               <li class="">
-                <a target="_self" href="./truyen-tranh-hot">THEO DOI</a>
+                <a target="_self" href="/truyen-tranh-hot">THEO DOI</a>
               </li>
               <li class="">
-                <a target="_self" href="./truyen-tranh-hot">LICH SU</a>
+                <a target="_self" href="/truyen-tranh-hot">LICH SU</a>
               </li>
 
               <li class="dropdown">
@@ -27,7 +27,7 @@
                   role="button"
                   aria-expanded="false"
                   target="_self"
-                  href="./tim-truyen"
+                  href="/tim-truyen"
                 >
                   Thể loại <i class="fa fa-caret-down"></i>
                 </a>
@@ -62,32 +62,32 @@
                   >Xếp hạng <i class="fa fa-sort"></i
                 ></a>
                 <div class="dropdown-menu navbar-dropdown">
-                  <a rel="nofollow" href="./tim-truyen?status=-1&amp;sort=10">
+                  <a rel="nofollow" href="/tim-truyen?status=-1&amp;sort=10">
                     <i class="fa fa-eye"></i> Top all</a
                   >
-                  <a href="./tim-truyen?status=2&amp;sort=30">
+                  <a href="/tim-truyen?status=2&amp;sort=30">
                     <strong><i class="fa fa-signal"></i> Truyện full</strong></a
                   >
-                  <a rel="nofollow" href="./tim-truyen?status=-1&amp;sort=11">
+                  <a rel="nofollow" href="/tim-truyen?status=-1&amp;sort=11">
                     <i class="fa fa-eye"></i> Top tháng</a
                   >
-                  <a rel="nofollow" href="./tim-truyen?status=-1&amp;sort=20">
+                  <a rel="nofollow" href="/tim-truyen?status=-1&amp;sort=20">
                     <i class="fa fa-thumbs-o-up"></i> Yêu Thích</a
                   >
-                  <a rel="nofollow" href="./tim-truyen?status=-1&amp;sort=12">
+                  <a rel="nofollow" href="/tim-truyen?status=-1&amp;sort=12">
                     <i class="fa fa-eye"></i> Top tuần</a
                   >
-                  <a href="./tim-truyen"> <i class="fa fa fa-refresh"></i> Mới cập nhật</a>
-                  <a rel="nofollow" href="./tim-truyen?status=-1&amp;sort=13">
+                  <a href="/tim-truyen"> <i class="fa fa fa-refresh"></i> Mới cập nhật</a>
+                  <a rel="nofollow" href="/tim-truyen?status=-1&amp;sort=13">
                     <i class="fa fa-eye"></i> Top ngày</a
                   >
-                  <a rel="nofollow" href="./tim-truyen?status=-1&amp;sort=15">
+                  <a rel="nofollow" href="/tim-truyen?status=-1&amp;sort=15">
                     <i class="fa fa-cloud-upload"></i> Truyện mới</a
                   >
-                  <a rel="nofollow" href="./tim-truyen?status=-1&amp;sort=19">
+                  <a rel="nofollow" href="/tim-truyen?status=-1&amp;sort=19">
                     <i class="fa fa-eye"></i> Top Follow</a
                   >
-                  <a rel="nofollow" href="./tim-truyen?status=-1&amp;sort=30">
+                  <a rel="nofollow" href="/tim-truyen?status=-1&amp;sort=30">
                     <i class="fa fa-list"></i> Số chapter</a
                   >
                 </div>
@@ -96,13 +96,13 @@
                 <a target="_self" href="/tim-truyen">TIM TRUYEN</a>
               </li>
               <li class="">
-                <a target="_self" href="./truyen-tranh-hot">CON GAI</a>
+                <a target="_self" href="/truyen-tranh-hot">CON GAI</a>
               </li>
               <li class="">
-                <a target="_self" href="./truyen-tranh-hot">CON TRAI</a>
+                <a target="_self" href="/truyen-tranh-hot">CON TRAI</a>
               </li>
               <li class="">
-                <a target="_self" href="./truyen-tranh-hot">FANPAGE</a>
+                <a target="_self" href="/truyen-tranh-hot">FANPAGE</a>
               </li>
             </ul>
           </div>
